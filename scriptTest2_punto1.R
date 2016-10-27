@@ -1,0 +1,6 @@
+x = c(1,2,3,4,5,6,7,8)
+y = c(4.35,6.05,7.54,7.55,12.92,14.2,19.28,25.06)
+datos1=data.frame(x,y)
+plot(datos1,log="y")
+regresion = lm(log10(y)~x,data = datos1)
+summary(regresion)
