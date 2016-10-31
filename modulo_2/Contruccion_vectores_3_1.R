@@ -16,7 +16,6 @@
 # Usos basicos
 # seq(a,b,by=r): de a a b con paso r
 # seq(a,by=r,length.out=n) : a partir de a, de longitud n con paso r
-Ahelord648618Leonardo
 x=c(1,2,3,4)
 ABC=c("a","b","c")
 c(x,ABC,200)
@@ -29,4 +28,4 @@ seq(0,123,by=5)
 seq(100,17,by=-5)
 20:0
 0:20
-seq(0,by=5,length.out = 20
+seq(0,by=5,length.out = 20)
